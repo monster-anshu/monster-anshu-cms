@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "basic_infos",
+  "info": {
+    "singularName": "basic-info",
+    "pluralName": "basic-infos",
+    "displayName": "basic-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "resume": {
+      "type": "string",
+      "required": true
+    },
+    "profilePic": {
+      "type": "string"
+    }
+  }
+}
