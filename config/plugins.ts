@@ -13,6 +13,7 @@ export default ({ env }) => {
     },
     "vercel-deploy": {
       enabled: true,
+      roles: ["strapi-super-admin"],
     },
   };
 };
