@@ -8,9 +8,9 @@
     "name": "A Strapi developer"
   },
   "scripts": {
-    "build": "yarn strapi build",
-    "develop": "yarn strapi develop",
-    "start": "yarn strapi start",
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
